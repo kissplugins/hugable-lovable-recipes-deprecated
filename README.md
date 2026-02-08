@@ -6,16 +6,28 @@ This doc/system can be used by **non-technical users, rapid prototypers, and sen
 ## How to Use This System
 
 ### With Lovable AI:
-1. **Before starting:** Upload AGENTS.md file into Lovable chat before requesting your first draft
-  
-2. **First interaction:** Ask Lovable to save AGENTS.md to its code repository for the project
-After pasting/uploading file into chat, copy paste this into chat: 
-Please include the file in the repo and follow the checklist-driven architecture in AGENTS.md for all code you generate.
-  
-3. **After first draft:** Request a compliance audit against compliance matrix.
+
+**Step 1: Upload AGENTS.md**
+Upload the AGENTS.md file into Lovable chat before requesting your first draft.
+
+**Step 2: Instruct Lovable to Follow the Guide**
+After uploading, paste this prompt into chat:
+
+```
+Please include AGENTS.md in the repo and follow the checklist-driven
+architecture in AGENTS.md for all code you generate.
+```
+
+**Step 3: Audit First Draft**
+Request a compliance audit against the compliance matrix:
+```
+Please audit the code against Section 0.1 (Compliance Matrix) in AGENTS.md
+and report any violations.
+```
 See: [Section 0.1 (Compliance Matrix)](./AGENTS.md#01-compliance-matrix-living-dashboard)
-   
-4. **Each build cycle:** Reset checkboxes in Section 0.1 and update "Last Audited" date in AGENTS.md header
+
+**Step 4: Each Build Cycle**
+Reset checkboxes in Section 0.1 and update "Last Audited" date in AGENTS.md header.
 
 ### With Other AI Assistants (Cursor, GitHub Copilot, Augment, etc.):
 1. **Setup:** Add AGENTS.md to your project root
