@@ -2,7 +2,7 @@
 **Version:** 1.2  
 **Last Updated:** 2026-02-08  
 **Last Audited:** _not yet audited_  
-**Purpose:** Execution checklist for three phases: pre-build, post-first-build, and continuous audit/fix/iterate.  
+**Purpose:** Execution checklist for three phases: pre-build, post-first-build, and continuous audit/fix/iterate. This script makes your Lovable code hugable for users.  
 
 ---
 

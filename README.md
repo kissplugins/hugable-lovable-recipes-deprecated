@@ -1,14 +1,20 @@
 # Hugable Lovable Recipes
+Makes your Lovable code hugable for users.
 
 This doc/system can be used by **non-technical users, rapid prototypers, and senior developers**.
 
 ## How to Use This System
 
 ### With Lovable AI:
-1. **Before starting:** Upload AGENTS.md to Lovable chat before requesting your first draft
+1. **Before starting:** Upload AGENTS.md file into Lovable chat before requesting your first draft
+  
 2. **First interaction:** Ask Lovable to save AGENTS.md to its code repository for the project
-3. **After first draft:** Request a compliance audit against compliane matrix.
+After pasting/uploading file into chat, copy paste this into chat: 
+Please include the file in the repo and follow the checklist-driven architecture in AGENTS.md for all code you generate.
+  
+3. **After first draft:** Request a compliance audit against compliance matrix.
 See: [Section 0.1 (Compliance Matrix)](./AGENTS.md#01-compliance-matrix-living-dashboard)
+   
 4. **Each build cycle:** Reset checkboxes in Section 0.1 and update "Last Audited" date in AGENTS.md header
 
 ### With Other AI Assistants (Cursor, GitHub Copilot, Augment, etc.):
